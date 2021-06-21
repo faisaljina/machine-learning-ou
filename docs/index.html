@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<head><meta charset="utf-8" />
+<!-- <head><meta charset="utf-8" />
 
-<title>MachLearn</title>
+<title>MachLearn</title> -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
 
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
@@ -15,9 +15,9 @@ layout: default
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script> -->
     <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
+    <!-- <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -33,12 +33,13 @@ layout: default
             linebreaks: { automatic: true }
         }
     });
-    </script>
-    <!-- End of mathjax configuration --></head>
+    </script> -->
+    <!-- End of mathjax configuration -->
+  <!-- </head> -->
 
  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css"> -->
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> -->
 
 <!-- <link rel="stylesheet" type="text/css" href="https://rawgit.com/ipython-contrib/jupyter_contrib_nbextensions/master/src/jupyter_contrib_nbextensions/nbextensions/toc2/main.css"> -->
 
@@ -46,18 +47,19 @@ layout: default
 
 <script src="https://rawgit.com/ipython-contrib/jupyter_contrib_nbextensions/master/src/jupyter_contrib_nbextensions/nbextensions/toc2/toc2.js"></script>
 
-<script>
-$( document ).ready(function(){
-
-            var cfg = {};
-
-            // fire the main function with these parameters
-            require(['nbextensions/toc2/toc2'], function (toc2) {
-                toc2.table_of_contents(cfg);
-            });
-    });
-</script>
 <body>
+  <script>
+    $( document ).ready(function(){
+    
+                var cfg = {};
+    
+                // fire the main function with these parameters
+                require(['nbextensions/toc2/toc2'], function (toc2) {
+                    toc2.table_of_contents(cfg);
+                });
+        });
+    </script>
+    
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
