@@ -3,7 +3,7 @@
 
 # Machine Learning on student records in Python
 
-This uses the Open University Learning Analytics dataset package, available from the Knowledge Media institute, The Open University.
+This project uses the Open University Learning Analytics dataset package, available from the Knowledge Media institute, The Open University.
 The seven large datasets (raw data not included in repo due to size) on Open University students were used with a goal of predicting who may fail or withdraw from their university course. 
 The datasets consist of:
 1. A list of available modules and their details.
